@@ -1,7 +1,8 @@
 /**
  *  * main - prints required sentence
  *   * Return: 0
- *    */
+ *
+ */
 #include <stdio.h>
 int main(void)
 {
