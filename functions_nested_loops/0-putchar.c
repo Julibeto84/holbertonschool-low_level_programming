@@ -2,7 +2,7 @@
 * main - prints "_putchar"
 * Return: Always 0
 */
-#include "stdio.h"
+#include <main.h>
 int main(void)
 {
 _putchar('_');
