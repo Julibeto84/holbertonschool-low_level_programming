@@ -2,9 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
-*  * main - Random number + last digit
-*   * Return: 0
-*   
+* main - Random number + last digit
+* Return: 0
 */
 int main(void)
 {
