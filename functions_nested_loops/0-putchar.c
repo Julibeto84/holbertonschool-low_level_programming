@@ -1,5 +1,5 @@
 /**
-* main - prints "_putchar"
+* main - printf "_putchar"
 * Return: Always 0
 */
 #include "main.h"
