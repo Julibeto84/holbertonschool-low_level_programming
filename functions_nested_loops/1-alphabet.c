@@ -5,12 +5,11 @@
 #include "main.h"
 void print_alphabet(void)
 {
-int c;
-c = 97;
-while (c < 123)
+char letter = 'a';
+while (letter <= 'z')
 {
-_putchar(c);
-c++;
+_putchar(letter);
+letter++;
 }
 _putchar('\n');
 }
