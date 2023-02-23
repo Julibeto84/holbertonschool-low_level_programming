@@ -1,8 +1,12 @@
+/*
+ * file: 0-putcher.c
+ */
+#include <stdio.h>
 /**
-* main - prints "_putchar"
-* Return: Always 0
+* main - Prints "_putchar" followed by a new line.
+*
+* Return: Always 0. 
 */
-#include "main.h"
 int main(void)
 {
  _putchar('_');
