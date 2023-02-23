@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *9_times_table - times table function
- *
- */
+*9_times_table - times table function
+*
+*/
 void times_table(void)
 {
 int i;
