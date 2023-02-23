@@ -1,1 +1,1 @@
-int main(-putchar.c 0-putchar -o 0-putchar);
+int _putchar(-putchar.c 0-putchar -o 0-putchar);
