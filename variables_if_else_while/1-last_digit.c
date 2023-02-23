@@ -1,29 +1,16 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include "holberton.h"
 /**
-* main - Random number + last digit
-* Return: 0
+* print_alphabet - function that prints the alphabet, lowercase
+* You can only use _putchar twice in your code
+* Return: nothing.
 */
-int main(void)
+void print_alphabet(void)
 {
-int n;
-int l;
-srand(time(0));
-n = rand() - RAND_MAX / 2;
-l = n % 10;
-printf("Last digit of %d is %d ", n, l);
-if (l > 5)
+int l = 'a';
+while (l <= 'z')
 {
-printf("and is greater than 5\n");
+_putchar(l);
+l += 1;
 }
-else if (l == 0)
-{
-printf("and is 0\n");
-}
-else
-{
-printf("and is less than 6 and not 0\n");
-}
-return (0);
+_putchar(10);
 }
