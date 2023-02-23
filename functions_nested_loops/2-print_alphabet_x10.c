@@ -5,16 +5,19 @@
 #include "main.h"
 void print_alphabet_x10(void)
 {
-char letter = 'a';
-int count = 0;
-while (count < 10)
+int c;
+int t;
+c = 97;
+t = 0;
+while (t < 10)
 {
-int i;
-for (i = 0; i < 26; i++)
+while (c < 123)
 {
-putchar(letter + i);
+_putchar(c);
+c++;
 }
-putchar('\n');
-count++;
+c = 97;
+t++;
+_putchar('\n');
 }
 }
