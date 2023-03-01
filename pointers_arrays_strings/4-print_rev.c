@@ -1,7 +1,7 @@
-#include <main.h>
+#include "main.h"
 #include <string.h>
 /**
-* strlen Get the length of the string 's'
+* _strlen - returns the length of a string.
 * @s: Pointer to string to measure
 * Return: Lenght of the string
 */
