@@ -4,7 +4,6 @@
 * @s: validate the character
 * Return: Always 0.
 */
-
 void rev_string(char *s)
 {
 	int i = 0, a = 0, Aux;
