@@ -1,20 +1,22 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
- * print_rev - prints reversed string, followed by a new line
- * @s: pointer to the string to print
- * Return: void
+ * print_array - print an array of integers
+ * @temp: "temp" to swap array elements
+ * @i: to loop through the array from the beginning
+ * @j: to loop through the array from the end
+ *
+ * Return: nothing.
  */
-
-void print_rev(char *s)
+void print_array(int *a, int n)
 {
-	int i = 0;
-	while (s[i])
-		i++;
+	int temp;
+	int i, j;
 
-	while (i--)
-	{
-		_putchar(s[i]);
+	for (i = 0, j = n - 1; i < j; i++, j--) {
+		temp = a[i];
+		a[i] = a[j];
+		a[j] = temp;
 	}
-	_putchar('\n');
-
 }
