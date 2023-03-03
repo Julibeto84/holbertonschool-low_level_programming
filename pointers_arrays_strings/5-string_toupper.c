@@ -4,6 +4,7 @@
  * string_toupper - "(char *)"
  * @s: String to change
  * Return: Pointer to string
+ *
 */
 
 
