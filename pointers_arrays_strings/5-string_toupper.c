@@ -5,6 +5,7 @@
  * @s: String to change
  * Return: Pointer to string
  */
+
 char *string_toupper(char *str)
 {
 	char *ptr = str;
