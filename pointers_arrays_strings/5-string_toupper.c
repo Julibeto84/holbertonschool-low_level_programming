@@ -2,7 +2,7 @@
 
 /**
  * string_toupper - "(char *)"
- * @s: String to change
+ * @str: String to change
  * Return: Pointer to string
  *
 */
