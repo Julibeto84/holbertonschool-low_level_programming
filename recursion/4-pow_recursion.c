@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * _pow_recursion - Calculates the power of an int "x" raised to another int "y"
