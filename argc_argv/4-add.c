@@ -1,32 +1,42 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- * main - mult two numbers
+ * main - mult two numbers.
  * @argc: count arg
  * @argv: array arg
- * Return: Success 0, Error 1
+ * Return: Always 0
  */
+
 int main(int argc, char *argv[])
 {
-	int i = 1, res = 0, a = 0;
+	int i;
+	int j;
+	int sum;
 
-	if (argc == 0)
+	if (argc == 1)
 	{
-		printf("%d\n", 0);
+		printf("0\n");
 		return (0);
 	}
-
-	for (; i < argc; i++)
+	else
 	{
-		a = strtol(argv[i], NULL, 10);
-		if (!a)
+		sum = 0;
+		for (i = 1; i < argc; i++)
 		{
-			printf("Error\n");
-			return (1);
+			for (j = 0; *(argv[i] + j) != '\0'; j++)
+			{
+				if (*(argv[i] + j) >= 48 && *(argv[i] + j) <= 57)
+					continue;
+				else
+				{
+					printf("Error\n");
+					return (1);
+				}
+			}
+			sum += atoi(argv[i]);
 		}
-		res = res + a;
+		printf("%d\n", sum);
+		return (0);
 	}
-	printf("%d\n", res);
-	return (0);
 }
