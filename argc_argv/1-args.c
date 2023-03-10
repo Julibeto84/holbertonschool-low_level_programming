@@ -1,14 +1,13 @@
 #include <stdio.h>
+
 /**
- * main - display num of arg
- * @argc:int
- * @argv:string
- * Return:always 0
+ * main - print n arg
+ * @argc: arguments number
+ * @argv: array call arg
+ * Return: Success 0
  */
-int main(int argc, char *argv[] __attribute__((unused)))
+int main(int argc, char __attribute__((unused)) *argv[])
 {
-
-	printf("%d\n", argc - 1);
-
+	printf("%d\n", --argc);
 	return (0);
 }
