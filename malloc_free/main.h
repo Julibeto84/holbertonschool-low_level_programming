@@ -1,4 +1,4 @@
-#ifndef MAIN_H
-#define MAIN_H
+#include "main.h"
+#include <stdlib.h>
 
-har *create_array(unsigned int size, char c);
+char *create_array(unsigned int size, char c);
